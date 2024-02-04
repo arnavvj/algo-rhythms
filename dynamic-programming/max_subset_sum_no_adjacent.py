@@ -4,11 +4,12 @@
 #                                       #
 # array = [70, 100, 120, 70, 60, 140]   #
 #           ^        ^            ^     #
-#                                       #
 # ans = 330 => 70 + 120 + 140           #
 #                                       #
 ############### test case ###############
 
+
+# Write your code here.
 def maxSubsetSumNoAdjacent(array):
     if len(array) == 0:
         return 0
