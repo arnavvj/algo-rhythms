@@ -11,13 +11,19 @@ When two collide:
 
 **Example**
 Input:
-
 ```python
 asteroids = [-3, 5, -8, 6, 7, -4, -7]
 ```
 
-Output:
+Explanation:
+// -3 moves left, no collision.
+//  5 moves right, collides with -8 → destroyed.
+//  6 moves right safely (no left-moving asteroid ahead).
+//  7 collides with -4 → destroys -4.
+//  7 then collides with -7 → both destroyed.
+// Remaining: [-3, -8, 6]
 
+Output:
 ```python
 [-3, -8, 6]
 ```
